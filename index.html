@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+
+<!-- *****************************
+         Author: 
+         Creation date: 
+     ***************************** -->
+
+<head>
+    <title>Grid Portfolio</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="stylesheet.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <header>
+        <nav class="topnav" id="myTopnav"> <!-- Responsive Navigation menu -->
+            <a href="index.html">Home</a>
+            <a href="#">Work</a>
+            <a href="#">About</a>
+        </nav>
+        <a href="javascript:void(0);" class="icon" onclick="toggleMenu()">
+            <i><img src="images/two-bars.svg"></i>
+        </a>
+        <h1>Grid Portfolio</h1>
+    </header>
+
+    <main class="main-content-area"> <!-- The main page content -->
+
+        <section class="portfolio-grid"> <!-- A grid of 'cards' comprised of image and caption -->
+
+            <article class="portfolio-item">
+                <img class="portfolio-item__img" src="images/beastie.jpg">
+                <div class="portfolio-item__details">
+                    <h3 class="portfolio-item__title">Beastie Boys</h3>
+                    <p class="portfolio-item__date">2026</p>
+                    <p class="portfolio-item__media">Graphic Design</p>
+                </div>
+            </article>
+
+            <article class="portfolio-item">
+                <img class="portfolio-item__img" src="images/beethoven.jpg">
+                <div class="portfolio-item__details">
+                    <h3 class="portfolio-item__title">Beethoven</h3>
+                    <p class="portfolio-item__date">2026</p>
+                    <p class="portfolio-item__media">Graphic Design</p>
+                </div>
+            </article>
+
+            <article class="portfolio-item">
+                <img class="portfolio-item__img" src="images/blondie.jpg">
+                <div class="portfolio-item__details">
+                    <h3 class="portfolio-item__title">Blondie</h3>
+                    <p class="portfolio-item__date">2026</p>
+                    <p class="portfolio-item__media">Graphic Design</p>
+                </div>
+            </article>
+
+            <article class="portfolio-item">
+                <img class="portfolio-item__img" src="images/bowie.jpg">
+                <div class="portfolio-item__details">
+                    <h3 class="portfolio-item__title">David Bowie</h3>
+                    <p class="portfolio-item__date">2026</p>
+                    <p class="portfolio-item__media">Graphic Design</p>
+                </div>
+            </article>
+
+            <article class="portfolio-item">
+                <img class="portfolio-item__img" src="images/cash.jpg">
+                <div class="portfolio-item__details">
+                    <h3 class="portfolio-item__title">Johnny Cash</h3>
+                    <p class="portfolio-item__date">2026</p>
+                    <p class="portfolio-item__media">Graphic Design</p>
+                </div>
+            </article>
+
+            <article class="portfolio-item">
+                <img class="portfolio-item__img" src="images/circles.jpg">
+                <div class="portfolio-item__details">
+                    <h3 class="portfolio-item__title">Bauhaus</h3>
+                    <p class="portfolio-item__date">2026</p>
+                    <p class="portfolio-item__media">Graphic Design</p>
+                </div>
+            </article>
+
+            <article class="portfolio-item">
+                <img class="portfolio-item__img" src="images/dots.jpg">
+                <div class="portfolio-item__details">
+                    <h3 class="portfolio-item__title">Bauhaus</h3>
+                    <p class="portfolio-item__date">2026</p>
+                    <p class="portfolio-item__media">Graphic Design</p>
+                </div>
+            </article>
+
+            <article class="portfolio-item">
+                <img class="portfolio-item__img" src="images/heads.jpg">
+                <div class="portfolio-item__details">
+                    <h3 class="portfolio-item__title">Talking Heads</h3>
+                    <p class="portfolio-item__date">2026</p>
+                    <p class="portfolio-item__media">Graphic Design</p>
+                </div>
+            </article>
+
+        </section>
+
+        <footer> <!-- The area at the bottom of the page -->
+            <p>Copyright &copy; Your Name 2026.</p>
+        </footer>
+
+    </main>
+
+    <!-- This Javascript toggles the responsive menu icon on and off -->
+    <script>
+        function toggleMenu() {
+            var x = document.getElementById("myTopnav");
+            if (x.className === "topnav") {
+                x.className += " responsive";
+            } else {
+                x.className = "topnav";
+            }
+        }
+    </script>
+
+</body>
+
+</html>
